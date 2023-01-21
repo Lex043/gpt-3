@@ -1,0 +1,33 @@
+@import "../../styles/breakpoints";
+
+header {
+  .header__text h1 {
+    font-size: 30px;
+    background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header__text p {
+    color: #81afdd;
+    font-size: 14px;
+  }
+
+  form {
+    .header__form__input {
+      background: #052d56;
+      padding: 8px;
+      border: none;
+    }
+    .header__form__btn {
+      background: #ff4820;
+      border-radius: 1px;
+      padding: 8px;
+      border: none;
+      color: #fff;
+    }
+  }
+  @include respondMin("sm-tablet") {
+    flex-direction: row;
+  }
+}
