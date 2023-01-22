@@ -1,0 +1,12 @@
+@import "../../styles/breakpoints";
+
+.startups__icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  .startups__icon__img {
+    max-width: 100%;
+    width: 80px;
+  }
+}

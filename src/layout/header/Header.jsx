@@ -3,7 +3,7 @@ import "./Header.scss";
 
 // Images
 import Group81 from "../../assets/Group 81.png";
-import HeaderImg from "../../assets/Header Illustration.png";
+import HeaderImg from "../../assets/Illustration.png";
 
 const Header = () => {
   return (
@@ -23,14 +23,19 @@ const Header = () => {
           />
           <button className="header__form__btn">Get Started</button>
         </form>
-        <figure>
-          <img src={Group81} alt="group of people" />
-          <figcaption>
+        <figure className="header__image__cont">
+          <img className="header__image" src={Group81} alt="group of people" />
+          <figcaption className="header__image__caption">
             1,600 people requested access a visit in last 24 hours
           </figcaption>
         </figure>
       </section>
-      <img src={HeaderImg} alt="Header Ilustration" />
+
+      <img
+        src={HeaderImg}
+        alt="Header Ilustration"
+        className="headerimg__ilustration"
+      />
     </header>
   );
 };

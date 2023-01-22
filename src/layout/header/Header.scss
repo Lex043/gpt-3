@@ -11,6 +11,7 @@ header {
   .header__text p {
     color: #81afdd;
     font-size: 14px;
+    padding-bottom: 12px;
   }
 
   form {
@@ -27,6 +28,25 @@ header {
       color: #fff;
     }
   }
+
+  .header__image__cont {
+    // display: flex;
+    padding: 12px 0;
+
+    .header__image {
+      max-width: 100%;
+    }
+
+    .header__image__caption {
+      font-size: 12px;
+      color: #ffffff;
+    }
+  }
+
+  .headerimg__ilustration {
+    max-width: 100%;
+  }
+
   @include respondMin("sm-tablet") {
     flex-direction: row;
   }

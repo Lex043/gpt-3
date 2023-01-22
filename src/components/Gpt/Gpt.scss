@@ -1,0 +1,44 @@
+@import "../../styles/breakpoints";
+
+.what__is__gpt3__cont {
+  margin: 4rem 0;
+  padding: 1rem;
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  .what__is__gpt3 {
+    // h1 {
+    //   line-height: 5px;
+    // }
+    h1,
+    p {
+      color: #ffffff;
+    }
+  }
+
+  .what__is__gpt3__cont2 {
+    .chatbots,
+    .knowledgebase,
+    .education {
+      h1,
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .explore__the__library {
+    h1,
+    p {
+      background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+        #ffffff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}
