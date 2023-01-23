@@ -1,0 +1,30 @@
+@import "../../styles/breakpoints";
+
+.feature__img__cont {
+  margin: 70px 0 40px 0;
+  .feature__img {
+    max-width: 100%;
+  }
+  .feature__img__text {
+    margin-top: 40px;
+    h6 {
+      color: #71e5ff;
+      padding: 7px 0;
+    }
+    h3 {
+      background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%),
+        #ffffff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    p {
+      color: #81afdd;
+      font-size: 15px;
+    }
+    h4 {
+      color: #ff8a71;
+      font-size: 10px;
+    }
+  }
+}

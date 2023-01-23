@@ -11,9 +11,7 @@
   );
 
   .what__is__gpt3 {
-    // h1 {
-    //   line-height: 5px;
-    // }
+    margin: 30px 0;
     h1,
     p {
       color: #ffffff;
@@ -21,6 +19,12 @@
   }
 
   .what__is__gpt3__cont2 {
+    .chatbots,
+    .knowledgebase,
+    .education {
+      margin: 30px 0;
+    }
+
     .chatbots,
     .knowledgebase,
     .education {
