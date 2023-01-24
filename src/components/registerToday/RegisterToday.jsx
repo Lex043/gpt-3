@@ -3,12 +3,12 @@ import "./RegisterToday.scss";
 
 const RegisterToday = () => {
   return (
-    <section>
-      <div>
-        <h3>Request Early Access to Get Started</h3>
-        <p>Register today & start exploring the endless possiblities.</p>
+    <section className="register__today__cont">
+      <div className="register__today__header">
+        <p>Request Early Access to Get Started</p>
+        <h3>Register today & start exploring the endless possiblities.</h3>
       </div>
-      <button>Get Started</button>
+      <button className="get__started__btn">Get Started</button>
     </section>
   );
 };

@@ -1,0 +1,64 @@
+@import "../../styles/breakpoints";
+
+.blog__posts__cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 0;
+  .first__blog__post {
+    img {
+      max-width: 100%;
+    }
+    p,
+    h2 {
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 8px;
+      padding: 8px;
+    }
+    h2 {
+      font-size: 18px;
+      padding-bottom: 10rem;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    header {
+      background: #042c54;
+    }
+  }
+
+  .blog__posts__cont2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .second__blog__post,
+    .third__blog__post,
+    .fourth__blog__post,
+    .fifth__blog__post {
+      img {
+        max-width: 100%;
+      }
+
+      p,
+      h2 {
+        color: #ffffff;
+      }
+
+      p {
+        font-size: 8px;
+        padding: 10px;
+      }
+      h2 {
+        font-size: 18px;
+        padding-bottom: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      header {
+        background: #042c54;
+      }
+    }
+  }
+}

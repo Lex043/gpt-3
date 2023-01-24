@@ -5,6 +5,8 @@ import {
   TheFuture,
   GetStarted,
   RegisterToday,
+  Alot,
+  Blog,
 } from "./components";
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
       <TheFuture />
       <GetStarted />
       <RegisterToday />
+      <Alot />
+      <Blog />
       <Footer />
     </div>
   );
