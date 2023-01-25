@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 40px 0;
+  margin: 40px 1rem;
   .first__blog__post {
     img {
       max-width: 100%;
@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    // margin: 0 1rem;
     .second__blog__post,
     .third__blog__post,
     .fourth__blog__post,

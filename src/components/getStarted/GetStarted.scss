@@ -1,7 +1,8 @@
 @import "../../styles/breakpoints";
 
 .feature__img__cont {
-  margin: 70px 0 40px 0;
+  // padding: 0 1rem;
+  margin: 70px 1rem 40px 1rem;
   .feature__img {
     max-width: 100%;
   }
@@ -12,6 +13,7 @@
       padding: 7px 0;
     }
     h3 {
+      padding: 7px 0;
       background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%),
         #ffffff;
       -webkit-background-clip: text;
@@ -25,6 +27,7 @@
     h4 {
       color: #ff8a71;
       font-size: 10px;
+      padding-top: 10px;
     }
   }
 }

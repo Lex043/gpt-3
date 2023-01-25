@@ -12,7 +12,9 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <Header />
+      <div className="gradient">
+        <Header />
+      </div>
       <Startups />
       <Gpt />
       <TheFuture />

@@ -2,7 +2,6 @@
 import "./Gpt.scss";
 
 // Image
-
 import rectangle from "../../assets/Rectangle 17.png";
 
 const Gpt = () => {

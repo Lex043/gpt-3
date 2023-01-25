@@ -1,8 +1,9 @@
 @import "../../styles/breakpoints";
 
-header {
+.header__cont {
+  margin: 0 1rem;
   .header__text h1 {
-    font-size: 30px;
+    font-size: 32px;
     background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -11,10 +12,11 @@ header {
   .header__text p {
     color: #81afdd;
     font-size: 14px;
-    padding-bottom: 12px;
+    padding: 12px 0;
   }
 
   form {
+    margin: 10px 0;
     .header__form__input {
       background: #052d56;
       padding: 8px;
@@ -31,7 +33,7 @@ header {
 
   .header__image__cont {
     // display: flex;
-    padding: 12px 0;
+    padding: 20px 0;
 
     .header__image {
       max-width: 100%;
@@ -39,6 +41,7 @@ header {
 
     .header__image__caption {
       font-size: 12px;
+      padding: 1rem 0;
       color: #ffffff;
     }
   }

@@ -4,14 +4,8 @@
   font-family: "Poppins", sans-serif;
   outline: none;
   box-sizing: border-box;
-}
-
-body {
-  background: radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  scroll-behavior: smooth;
+  margin: 0px;
 }
 
 h1,
@@ -21,7 +15,8 @@ h4,
 h5,
 h6,
 p,
-figure {
+figure,
+header {
   padding: 0;
   margin: 0;
 }

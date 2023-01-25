@@ -2,7 +2,6 @@
 import "./TheFuture.scss";
 
 // Images
-
 import rectangle from "../../assets/Rectangle 17.png";
 
 const TheFuture = () => {

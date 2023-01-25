@@ -1,4 +1,3 @@
-// SCSS
 import "./Header.scss";
 
 // Images
@@ -7,7 +6,13 @@ import HeaderImg from "../../assets/Illustration.png";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header__cont">
+      <img
+        src={HeaderImg}
+        alt="Header Ilustration"
+        className="headerimg__ilustration"
+      />
+
       <section className="header__text">
         <h1>Let's Build Something amazing with GPT-3 OpenAI</h1>
         <p>
@@ -30,12 +35,6 @@ const Header = () => {
           </figcaption>
         </figure>
       </section>
-
-      <img
-        src={HeaderImg}
-        alt="Header Ilustration"
-        className="headerimg__ilustration"
-      />
     </header>
   );
 };
