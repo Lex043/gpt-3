@@ -1,6 +1,7 @@
 @import "../../styles/breakpoints";
 
 .register__today__cont {
+  text-align: center;
   padding: 15px 20px;
   margin: 0 1rem 30px 1rem;
   background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
@@ -10,10 +11,10 @@
 
   .register__today__header {
     p {
-      font-size: 10px;
+      font-size: 12px;
     }
     h3 {
-      font-size: 14px;
+      font-size: 18px;
       padding-bottom: 10px;
     }
   }

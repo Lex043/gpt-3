@@ -1,8 +1,12 @@
-@import "../../styles//breakpoints";
+@import "../../styles/breakpoints";
 
 .footer {
   background: #031b34;
-  padding: 5rem 1rem;
+  padding: 5rem 1rem 2rem 1rem;
+  p {
+    color: #ffffff;
+    margin-top: 20px;
+  }
   .footer__first__section {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,37 @@
       border: 1px solid #ffffff;
       padding: 12px 10px;
       text-align: center;
+    }
+  }
+
+  .footer__cont2 {
+    margin-top: 30px;
+    .footer__logo {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      .footer__logo__cap {
+        padding-top: 10px;
+        color: #ffffff;
+        font-size: 13px;
+      }
+    }
+
+    .footer__links {
+      ul {
+        list-style-type: none;
+        .links,
+        .company,
+        .get__in__touch {
+          font-size: 18px;
+          padding-top: 15px;
+          padding-bottom: 8px;
+        }
+        li {
+          color: #ffffff;
+          font-size: 12px;
+        }
+      }
+
     }
   }
 }
