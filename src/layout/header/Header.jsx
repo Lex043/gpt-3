@@ -24,7 +24,7 @@ const Header = () => {
           <input
             className="header__form__input"
             type="text"
-            placeholder="Your Email Addresss"
+            placeholder="Your Email Address"
           />
           <button className="header__form__btn">Get Started</button>
         </form>

@@ -2,19 +2,29 @@
 
 .the__future__cont {
   margin: 0 1rem 30px 1rem;
-  margin-bottom: 30px;
+  @include respondMin('tablet') {
+    margin: 0 2rem 30px 2rem;
+  }
+
   .the__future__header {
     h1 {
       background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
-        #ffffff;
+      #ffffff;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
     p {
       color: #ff8a71;
       padding-top: 8px;
       padding-bottom: 30px;
+    }
+
+    @include respondMin('tablet') {
+      h1 {
+        padding: 10px 0;
+      }
     }
   }
 
@@ -26,9 +36,14 @@
       h1 {
         color: #ffffff;
       }
+
       p {
         color: #81afdd;
         padding: 15px 0;
+      }
+
+      @include respondMin('tablet') {
+        padding: 20px 0;
       }
     }
 

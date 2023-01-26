@@ -1,10 +1,19 @@
 @import "../../styles/breakpoints";
 
 .feature__img__cont {
-  // padding: 0 1rem;
   margin: 70px 1rem 40px 1rem;
+  @include respondMin('tablet') {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 25px;
+    margin: 70px 2rem 5rem 2rem;
+  }
   .feature__img {
     max-width: 100%;
+    height: auto;
+    @include respondMin('tablet') {
+      max-width: 49%;
+    }
   }
   .feature__img__text {
     margin-top: 40px;
@@ -23,11 +32,17 @@
     p {
       color: #81afdd;
       font-size: 15px;
+      @include respondMin('tablet') {
+        font-size: 13px;
+      }
     }
     h4 {
       color: #ff8a71;
       font-size: 10px;
       padding-top: 10px;
+      @include respondMin('tablet') {
+        padding-bottom: 20px;
+      }
     }
   }
 }

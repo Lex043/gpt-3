@@ -1,11 +1,19 @@
 @import "../../styles/breakpoints";
 
 .alot {
-  padding: 0 1rem;
+  margin: 0 1rem;
   h1 {
     background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    @include respondMin('tablet') {
+      font-size: 2rem;
+      max-width: 450px;
+    }
+  }
+
+  @include respondMin('tablet') {
+    margin: 4rem 2rem;
   }
 }

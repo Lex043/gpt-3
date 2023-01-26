@@ -47,7 +47,7 @@ const Gpt = () => {
           <h1>Education</h1>
           <p>
             At jointure ladyship an insisted so humanity he. Friendly bachelor
-            entrance to on by. As put impossible own apartments b
+            entrance to on by. As put impossible own apartments
           </p>
         </div>
       </section>

@@ -3,15 +3,23 @@
 .footer {
   background: #031b34;
   padding: 5rem 1rem 2rem 1rem;
-  p {
+
+  @include respondMin('tablet') {
+    padding: 5rem 2rem 2rem 2rem;
+  }
+
+  .copyright {
     color: #ffffff;
     margin-top: 20px;
+    text-align: center;
   }
+
   .footer__first__section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     h1 {
       text-align: center;
       padding-bottom: 2rem;
@@ -19,6 +27,10 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+
+      @include respondMin('tablet') {
+        font-size: 3rem;
+      }
     }
 
     button {
@@ -30,11 +42,13 @@
     }
   }
 
-  .footer__cont2 {
+  .footer__links {
     margin-top: 30px;
+
     .footer__logo {
       margin-top: 10px;
       margin-bottom: 20px;
+
       .footer__logo__cap {
         padding-top: 10px;
         color: #ffffff;
@@ -42,22 +56,29 @@
       }
     }
 
-    .footer__links {
-      ul {
-        list-style-type: none;
-        .links,
-        .company,
-        .get__in__touch {
-          font-size: 18px;
-          padding-top: 15px;
-          padding-bottom: 8px;
-        }
-        li {
-          color: #ffffff;
-          font-size: 12px;
-        }
+    @include respondMin('tablet') {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    ul {
+      list-style-type: none;
+
+      .links,
+      .company,
+      .get__in__touch {
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 8px;
       }
 
+      li {
+        color: #ffffff;
+        font-size: 12px;
+      }
     }
+
   }
 }
+

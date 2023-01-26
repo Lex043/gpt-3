@@ -2,26 +2,40 @@
 
 .header__cont {
   margin: 0 1rem;
+  @include respondMin('tablet') {
+    margin: 0 2rem;
+  }
+
   .header__text h1 {
     font-size: 32px;
     background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+
+    @include respondMin('tablet') {
+      font-size: 3rem;
+    }
   }
+
   .header__text p {
     color: #81afdd;
     font-size: 14px;
     padding: 12px 0;
+    @include respondMin('tablet') {
+      font-size: 1rem;
+    }
   }
 
   form {
     margin: 10px 0;
+
     .header__form__input {
       background: #052d56;
       padding: 8px;
       border: none;
     }
+
     .header__form__btn {
       background: #ff4820;
       border-radius: 1px;
@@ -32,11 +46,18 @@
   }
 
   .header__image__cont {
-    // display: flex;
     padding: 20px 0;
+    @include respondMin('tablet') {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
 
     .header__image {
       max-width: 100%;
+      @include respondMin('tablet') {
+        max-width: 30%;
+      }
     }
 
     .header__image__caption {
@@ -50,7 +71,7 @@
     max-width: 100%;
   }
 
-  @include respondMin("sm-tablet") {
+  @include respondMin("tablet") {
     flex-direction: row;
   }
 }

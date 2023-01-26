@@ -6,8 +6,12 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
-  padding: 0 1rem;
-  margin: 2rem 0;
+  margin: 2rem 1rem;
+
+  @include respondMin('tablet') {
+    gap: 3rem;
+  }
+
   .startups__icon__img {
     max-width: 100%;
     width: 100px;

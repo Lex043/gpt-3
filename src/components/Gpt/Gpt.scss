@@ -4,14 +4,20 @@
   margin: 4rem 1rem;
   padding: 1rem;
   background: radial-gradient(
-    circle at 30% -100%,
-    #042c54 25%,
-    rgba(4, 44, 84, 1) 85%,
-    rgba(27, 120, 222, 1) 100%
+                  circle at 30% -100%,
+                  #042c54 25%,
+                  rgba(4, 44, 84, 1) 85%,
+                  rgba(27, 120, 222, 1) 100%
   );
+
+  @include respondMin('tablet') {
+    margin: 4rem 2rem;
+    padding: 2rem;
+  }
 
   .what__is__gpt3 {
     margin: 30px 0;
+
     h1,
     p {
       color: #ffffff;
@@ -19,6 +25,12 @@
   }
 
   .what__is__gpt3__cont2 {
+
+    @include respondMin('tablet') {
+      display: flex;
+      gap: 2rem;
+    }
+
     .chatbots,
     .knowledgebase,
     .education {
@@ -39,10 +51,14 @@
     h1,
     p {
       background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
-        #ffffff;
+      #ffffff;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+    }
+
+    @include respondMin('tablet') {
+      padding: 15px 0;
     }
   }
 }
