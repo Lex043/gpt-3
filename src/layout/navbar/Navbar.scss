@@ -28,11 +28,23 @@
     background: #031b34;
     transition: 0.5s;
     transform: translateX(200%);
+
+    @include respondMin('tablet') {
+      transition: none;
+      transform: unset;
+      position: relative;
+      height: unset;
+      flex-direction: row;
+      background-color: unset;
+      width: unset;
+    }
     a {
       color: #ffffff;
       text-decoration: none;
+      @include respondMin('tablet') {
+        font-size: 14px;
+      }
     }
-
 
     .navbar__signin__signinup {
       display: flex;
@@ -40,8 +52,22 @@
       gap: 10px;
       align-items: center;
 
+      @include respondMin('tablet') {
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: flex-end;
+        display: none;
+      }
+
       p {
         color: #ffffff;
+      }
+
+      .signup {
+        background-color: #FF4820;
+        border: none;
+        color: #ffffff;
+        padding: 8px 22px;
       }
 
       .close__btn {
@@ -50,16 +76,52 @@
         position: absolute;
         top: 2rem;
         right: 1rem;
+
+        @include respondMin('tablet') {
+          //visibility: hidden;
+          display: none;
+        }
       }
     }
+
   }
 
   .responsive_nav {
     transform: none;
   }
 
+  .navbar__signin__signinup2 {
+    display: none;
+    gap: 12px;
+    align-items: center;
+
+    @include respondMin('tablet') {
+      display: flex;
+    }
+
+    p {
+      color: #ffffff;
+    }
+
+    .signup2 {
+      background-color: #FF4820;
+      border: none;
+      color: #ffffff;
+      padding: 8px 22px;
+    }
+
+    .close__btn2 {
+      display: none;
+    }
+  }
+
   .menu__btn {
     background-color: transparent;
     border: none;
+
+    @include respondMin('tablet') {
+      display: none;
+    }
   }
 }
+
