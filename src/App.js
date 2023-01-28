@@ -1,4 +1,4 @@
-import { Header, Footer } from "./layout";
+import { Navbar, Header, Footer } from "./layout";
 import {
   Startups,
   Gpt,
@@ -13,6 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="gradient">
+        <Navbar />
         <Header />
       </div>
       <Startups />

@@ -1,0 +1,65 @@
+@import "../../styles/breakpoints";
+
+.navbar__cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+
+  .navbar__logo {
+    max-width: 100%;
+    width: 60px;
+  }
+  .navbar__logo:hover {
+    cursor: pointer;
+  }
+
+  .navbar__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #031b34;
+    transition: 0.5s;
+    transform: translateX(200%);
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+
+    .navbar__signin__signinup {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+
+      p {
+        color: #ffffff;
+      }
+
+      .close__btn {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+      }
+    }
+  }
+
+  .responsive_nav {
+    transform: none;
+  }
+
+  .menu__btn {
+    background-color: transparent;
+    border: none;
+  }
+}

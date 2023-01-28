@@ -45,6 +45,10 @@
   .footer__links {
     margin-top: 30px;
 
+    @include respondMin('tablet') {
+      margin-top: 60px;
+    }
+
     .footer__logo {
       margin-top: 10px;
       margin-bottom: 20px;
