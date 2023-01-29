@@ -18,6 +18,11 @@
     margin: 0 2rem 4rem 2rem;
   }
 
+  @include respondMin('desktop') {
+    margin: 0 3rem 4rem 3rem;
+    padding: 40px;
+  }
+
   .register__today__header {
     p {
       font-size: 12px;

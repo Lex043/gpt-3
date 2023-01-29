@@ -8,8 +8,10 @@ const Gpt = () => {
   return (
     <section className="what__is__gpt3__cont">
       <div className="what__is__gpt3">
-        <img src={rectangle} alt="rectangle" />
-        <h1>What is GPT-3</h1>
+        <div>
+          <img src={rectangle} alt="rectangle" />
+          <h1>What is GPT-3</h1>
+        </div>
         <p>
           We so opinion friends me message as delight. Whole front do of plate
           heard oh ought. His defective nor convinced residence own. Connection

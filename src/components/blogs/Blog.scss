@@ -42,6 +42,10 @@
       @include respondMin('tablet') {
         order: 2;
       }
+
+      //@include respondMin('desktop') {
+      //  order: unset;
+      //}
     }
 
     .second__blog__post,

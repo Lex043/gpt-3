@@ -8,6 +8,11 @@
     column-gap: 25px;
     margin: 70px 2rem 5rem 2rem;
   }
+
+  @include respondMin('desktop') {
+    margin: 70px 3rem 7rem 3rem;
+    justify-content: center;
+  }
   .feature__img {
     max-width: 100%;
     height: auto;
@@ -43,6 +48,19 @@
       @include respondMin('tablet') {
         padding-bottom: 20px;
       }
+    }
+    @include respondMin('desktop') {
+      max-width: 35%;
+      h4, h6 {
+        font-size: 15px;
+      }
+      h3 {
+        font-size: 30px;
+      }
+      h4 {
+        padding-bottom: 60px;
+      }
+
     }
   }
 }

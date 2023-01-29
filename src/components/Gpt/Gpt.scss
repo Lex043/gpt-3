@@ -15,12 +15,25 @@
     padding: 2rem;
   }
 
+  @include respondMin('tablet') {
+    margin: 6rem 3rem;
+  }
+
   .what__is__gpt3 {
     margin: 30px 0;
 
     h1,
     p {
       color: #ffffff;
+    }
+
+    @include respondMin('desktop') {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        max-width: 65%;
+      }
     }
   }
 
@@ -57,8 +70,22 @@
       background-clip: text;
     }
 
+
+
     @include respondMin('tablet') {
       padding: 15px 0;
+    }
+
+    @include respondMin('desktop') {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 35px 0;
+
+      h1 {
+        font-size: 35px;
+        max-width: 45%;
+      }
     }
   }
 }

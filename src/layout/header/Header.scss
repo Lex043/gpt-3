@@ -6,6 +6,13 @@
     margin: 0 2rem;
   }
 
+  @include respondMin('desktop') {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 3rem;
+  }
+
   .header__text h1 {
     font-size: 32px;
     background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
@@ -16,6 +23,7 @@
     @include respondMin('tablet') {
       font-size: 3rem;
     }
+
   }
 
   .header__text p {
@@ -76,6 +84,10 @@
 
   .headerimg__ilustration {
     max-width: 100%;
+    object-fit: contain;
+    @include respondMin('desktop') {
+      order: 2;
+    }
   }
 
   @include respondMin("tablet") {

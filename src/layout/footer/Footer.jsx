@@ -6,8 +6,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <section className="footer__first__section">
-        <h1>Do you want to step in to the future before others</h1>
-        <button>Request Early Access</button>
+        <div className="footer__first__header">
+          <h1>Do you want to step in to the future before others</h1>
+          <button>Request Early Access</button>
+        </div>
 
         <section className="footer__links">
           <figure className="footer__logo">
@@ -17,7 +19,7 @@ const Footer = () => {
             </p>
           </figure>
 
-          <ul>
+          <ul className="link__cont">
             <li className="links">Links</li>
             <li>Overons</li>
             <li>Social Media</li>
@@ -25,14 +27,14 @@ const Footer = () => {
             <li>Contact</li>
           </ul>
 
-          <ul>
+          <ul className="link__cont">
             <li className="company">Company</li>
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
             <li>Contact</li>
           </ul>
 
-          <ul>
+          <ul className="link__cont">
             <li className="get__in__touch">Get in touch</li>
             <li>Crechterwoord K12 182 DK Alknjkcb</li>
             <li>085-132567</li>

@@ -7,13 +7,20 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    @include respondMin('tablet') {
+  }
+
+  @include respondMin('tablet') {
+    margin: 4rem 2rem;
+    h1 {
       font-size: 2rem;
       max-width: 450px;
     }
   }
 
-  @include respondMin('tablet') {
-    margin: 4rem 2rem;
+  @include respondMin('desktop') {
+    margin: 6rem 3rem;
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 }

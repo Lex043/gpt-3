@@ -6,6 +6,11 @@
     margin: 0 2rem 30px 2rem;
   }
 
+  @include respondMin('tablet') {
+    margin: 0 2rem 50px 3rem;
+    display: flex;
+  }
+
   .the__future__header {
     h1 {
       background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
@@ -26,6 +31,12 @@
         padding: 10px 0;
       }
     }
+
+    @include respondMin('desktop') {
+      h1 {
+        max-width: 70%;
+      }
+    }
   }
 
   .the__future__cont2 {
@@ -44,6 +55,18 @@
 
       @include respondMin('tablet') {
         padding: 20px 0;
+      }
+
+      @include respondMin('desktop') {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          max-width: 60%;
+        }
+        h1 {
+          max-width: 70%;
+        }
       }
     }
 
