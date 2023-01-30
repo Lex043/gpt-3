@@ -11,6 +11,7 @@ const Header = () => {
         src={HeaderImg}
         alt="Header Ilustration"
         className="headerimg__ilustration"
+        loading="lazy"
       />
 
       <section className="header__text">

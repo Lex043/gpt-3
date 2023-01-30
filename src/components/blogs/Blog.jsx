@@ -13,10 +13,11 @@ const Blog = () => {
         <img src={firstBlogImg} alt="first post" />
         <header>
           <p>Sept 26, 2021</p>
-          <h2>GPT-3 and Open AI is the future. Let us exlore how it is?</h2>
+          <h2>GPT-3 and Open AI is the future. Let us explore how it is?</h2>
           <p>Read Full Article</p>
         </header>
       </figure>
+
       <figure className="second__blog__post">
         <img src={secondBlogImg} alt="second post" />
         <header>
@@ -30,7 +31,7 @@ const Blog = () => {
         <img src={thirdBlogImg} alt="third post" />
         <header>
           <p>Sep 26, 2021</p>
-          <h2>GPT-3 and Open AI is the future. Let us exlore how it is?</h2>
+          <h2>GPT-3 and Open AI is the future. Let us explore how it is?</h2>
           <p>Read Full Article</p>
         </header>
       </figure>
@@ -39,7 +40,7 @@ const Blog = () => {
         <img src={fourthBlogImg} alt="fourth post" />
         <header>
           <p>Sep 26, 2021</p>
-          <h2>GPT-3 and Open AI is the future. Let us exlore how it is?</h2>
+          <h2>GPT-3 and Open AI is the future. Let us explore how it is?</h2>
           <p>Read Full Article</p>
         </header>
       </figure>
@@ -48,7 +49,7 @@ const Blog = () => {
         <img src={fifthBlogImg} alt="fifth post" />
         <header>
           <p>Sep 26, 2021</p>
-          <h2>GPT-3 and Open AI is the future. Let us exlore how it is?</h2>
+          <h2>GPT-3 and Open AI is the future. Let us explore how it is?</h2>
           <p>Read Full Article</p>
         </header>
       </figure>
